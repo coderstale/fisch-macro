@@ -1,10 +1,10 @@
-🎣 Fisch Auto Catcher — AI-Powered Game Assistant for Roblox
+## 🎣 Fisch Auto Catcher — AI-Powered Game Assistant for Roblox
 
-Smart real-time object detection and automation for Roblox’s fishing mini-game “Fisch”.
+> Smart real-time object detection and automation for Roblox’s fishing mini-game “Fisch”.
 
 ⸻
 
-📌 Overview
+# 📌 Overview
 
 This project is a computer vision + automation tool designed for the Roblox game Fisch. The goal of the project was to track in-game elements such as the fish target marker and catch bar using YOLOv8 models, and control gameplay actions like pressing spacebar based on their relative positions — effectively automating the mini-game to always catch fish.
 
@@ -13,7 +13,8 @@ self made dataset (included in the Kaggle Dataset Link).
 
 ⸻
 
-⚙️ Features Implemented
+# ⚙️ Features Implemented
+
 	•	✅ YOLOv8 Training for fishTarget and catchBar
 	•	✅ Multiple training attempts using yolov8n.pt and yolov8m.pt
 	•	✅ Real-time screen detection using mss and OpenCV
@@ -26,7 +27,8 @@ self made dataset (included in the Kaggle Dataset Link).
 
 ⸻
 
-🧪 How It Works
+# 🧪 How It Works
+
 	1.	Two separate YOLOv8 models are trained:
 	•	fishTargetModel to detect the target marker
 	•	catchBarModel to detect the moving bar
@@ -43,7 +45,8 @@ self made dataset (included in the Kaggle Dataset Link).
 
 ⸻
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
+
 	•	Python 3.11
 	•	Ultralytics YOLOv8
 	•	Torch 2.5.1
@@ -55,7 +58,7 @@ self made dataset (included in the Kaggle Dataset Link).
 
 ⸻
 
-⚠️ Challenges & Roadblocks
+# ⚠️ Challenges & Roadblocks
 
 Throughout development, several technical challenges were faced:
 	•	❌ Tracking Flicker & ID Switching
@@ -71,7 +74,7 @@ MPS (Apple GPU) support is experimental and limited compared to CUDA.
 
 ⸻
 
-🛑 Why the Project Is Paused
+# 🛑 Why the Project Is Paused
 
 Despite reaching a working prototype, I decided to pause development due to:
 	•	🧠 Lack of Advanced RL and Control Knowledge
@@ -83,7 +86,7 @@ Despite decent performance, handling two models + real-time screen capture + aut
 
 ⸻
 
-💭 Future Improvements
+# 💭 Future Improvements
 
 If resumed in the future, here’s what I’d focus on:
 	•	🔁 Switch to one unified YOLO model with two classes
@@ -94,7 +97,7 @@ If resumed in the future, here’s what I’d focus on:
 
 ⸻
 
-🎮 Roblox Game
+# 🎮 Roblox Game
 
 This tool was built specifically for the Roblox game Fisch which contains a fishing mechanic mini-game requiring timing and coordination.
 
@@ -102,14 +105,14 @@ It automates the reaction loop using vision + key automation.
 
 ⸻
 
-📌 Dataset (Kaggle)
+# 📌 Dataset (Kaggle)
 
 You can explore the dataset used for training here:
 🔗 https://kaggle.com/datasets/b883f2b22ebbbf7c1f1075cadbe8ed21607a32970bfd6c4d1a619464cc9efe5a
 
 ⸻
 
-📝 License
+# 📝 License
 
 This project is for educational and experimental purposes. All rights to the original game (Fisch on Roblox) belong to its developers.
 
